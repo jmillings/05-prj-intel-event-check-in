@@ -7,7 +7,11 @@
 
 body {
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-  background-color: #f5f5f5;
+  background-image: url("https://i.natgeofe.com/n/a6f84fff-b808-4e90-8a2d-1964b242e391/1-redwood.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: #333;
   line-height: 1.6;
   min-height: 100vh;
@@ -18,7 +22,7 @@ body {
   display: block;
   text-align: left;
   margin-bottom: 15px;
-  color: #475569;
+  color: #5c6c85;
   padding-left: 5px;
   font-weight: 500;
 }
@@ -101,6 +105,8 @@ body {
   display: flex;
   gap: 15px;
   width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Form elements */
@@ -170,7 +176,7 @@ button .fas {
   gap: 6px;
   margin-bottom: 15px;
   font-size: 17px;
-  color: #64748b;
+  color: #4a6081;
 }
 
 /* Attendance tracker styling */
@@ -189,7 +195,11 @@ button .fas {
   gap: 6px;
   margin-bottom: 15px;
   font-size: 17px;
-  color: #64748b;
+  color: #033b85;
+  background: #fff;
+  padding: 18px 24px;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
 }
 
 #attendeeCount {
@@ -200,7 +210,7 @@ button .fas {
 }
 
 .attendance-header i {
-  color: #0071c5;
+  color: #026dc0;
   font-size: 20px;
   margin-right: 4px;
 }
@@ -216,7 +226,7 @@ button .fas {
   width: 100%;
   max-width: 500px;
   height: 16px;
-  background-color: #e0e0e0;
+  background-color: #92909b;
   border-radius: 10px;
   overflow: hidden;
   margin: 8px auto;
@@ -265,8 +275,13 @@ button .fas {
 .footer {
   text-align: center;
   padding: 40px 20px;
-  color: #94a3b8;
+  color: #414346;
   font-size: 14px;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+  max-width: 700px;
+  margin: 40px auto 0 auto;
 }
 
 .footer-link {
@@ -327,13 +342,13 @@ select {
 
 /* Team card colors */
 .team-card.water {
-  background-color: #e8f7fc;
+  background-color: #13bcf5;
 }
 .team-card.zero {
-  background-color: #ecfdf3;
+  background-color: #2bbb67;
 }
 .team-card.power {
-  background-color: #fff7ed;
+  background-color: #ebc18f;
 }
 
 .team-name {
